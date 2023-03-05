@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+.header {
+    background-color:#bc5cc9 ;
+    color: #020202;
+    font-family:'Times New Roman';
+    padding: 15px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #65d0eb;
+    color: #0d0d0e;
+    font-family: 'Arial Narrow' cursive;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: #91ec55;
+}
+/* .aside {
+    background-color: #c3f07c;
+    padding: 15px;
+    height: 300px;
+    color: #070707;
+    text-align: center;
+    font-size: 14px;
+    background-image: url("");
+    background-size: 100%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+} */
+.footer {
+    background-color: #c94cb8;
+    color: #1b1b1b;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+    <img src="img/TECNM.png" height="100" width="200" alt=""> 
+    <h1>PROGRAMACI&Oacute;N WEB</h1>
+    
+  
+</div>
+
+<div class="row">
+
+<div class="col-3 menu">
+    <ul>
+        <a> <h1><h2>Pr&aacute;cticas del equipo:</h2></h1></a>
+        <li><a href="https://daxter24.github.io/practica-9/">Borbonio González José Jair - 20011182</a></li>
+        <li><a href="https://israf.github.io/practica9/">Hernandez Santiago Israel - 20011252</a></li>
+        <li><a href="https://xochitlmh.github.io/U2PROYECTO9/">Macuixtle Hernández Xóchitl - 20011267</a></li>
+        <li><a href="https://zurelym03.github.io/Practica_9_U2/">Mendoza Vázquez Zurely - 20011278</a></li>
+        <li><a href="https://jluis0103.github.io/Practica9/">Ramírez Alfonso Jose Luis - 20011297</a></li>
+  </ul>
+</div>
+
+<div class="col-6">
+    <div align="center"><h1>TECNOL&Oacute;GICO NACIONAL DE M&Eacute;XICO <BR>
+    INSTITUTO TECNOL&Oacute;GICO DE ORIZABA</h1> </div>
+    <br>
+    <br>
+    <div align="center"> <h1>CARRERA: </h1> <h2>Ingenier&iacute;a en sistemas computacionales</h2>
+    
+    <div align="center"> <h1>DOCENTE: </h1> <h2>Patricia Quitl Gonz&aacute;lez</h2>       
+    
+    <div align="center"> <h1>GRUPO: </h1> <h2>6g5A</h2>   
+    
+    <div align="center"> <h1>HORARIO: </h1> <h2>12:00 pm-13:00 pm</h2>
+
+    <div align="center"> <h1>FECHA: </h1> <h2>5 de marzo de 2023</h2>
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+   
+<div class="col-3 right">
+  <div class="aside">
+
+    <!-- <h2>Qu&eacute; es?</h2>
+    <p>Chania es una ciudad de la isla de Creta.</p>
+    <h2>D&oacute;de?</h2>
+    <p>Creta es una isla griega en el mar Mediterraneo.</p>
+    <h2>C&oacute;mo?</h2>
+    <p>Puede llegar al aeropuerto de Chania desde cualquier punto de Europa.</p> -->
+  </div>
+</div>
+
+</div>
+
+<!-- <div class="footer">
+  <p>Cambiar el tama&ntilde;o de la ventana del navegador para ver c&oacute;mo responde el contenido al redimensionamiento.</p>
+</div> -->
+
+</body>
+</html>
